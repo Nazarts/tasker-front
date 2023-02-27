@@ -1,0 +1,83 @@
+.cat-page-content {
+    padding-left: 50px;
+}
+
+.categories-wrapper {
+    padding: 10px 5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-flow: row wrap;
+}
+
+.category {
+    width: fit-content;
+    min-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.category > p {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.category > p > a {
+    text-decoration: none;
+    color: #050507;
+    font-weight: bold;
+}
+
+.new-category {
+    border-radius: 20px;
+    background: darkslategray;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.new-category > p {
+    font-size: 18px;
+    padding: 14px 0 0 0;
+    line-height: 20px;   
+}
+
+.category-form {
+    width: 200px;
+    border-radius: 20px;
+    background: darkslategray;
+    position: relative;
+}
+
+.category-form > textarea {
+    background: transparent;
+    appearance: none;
+    outline: none;
+    width: 190px;
+    height: 46px;
+    color: aliceblue;
+    resize: none;
+}
+
+.category-form > textarea:active {
+    border: none;
+}
+
+.create-btn {
+    position: absolute;
+    right: -10px;
+    top: 15px;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cat-page-title {
+    margin: 0 0 20px 0;
+}

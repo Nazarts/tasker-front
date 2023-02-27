@@ -1,0 +1,65 @@
+.form-wrapper {
+    width: 50%;
+    min-width: 350px;
+    background: white;
+    padding: 25px 0;
+    margin: 50px auto;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 5px 17px 4px rgb(0 0 0 / 53%);
+    -moz-box-shadow: 0px 5px 17px 4px rgb(0 0 0 / 53%);
+    box-shadow: 0px 5px 17px 4px rgb(0 0 0 / 53%);
+}
+
+.form-wrapper > h1 {
+    text-align: center;
+}
+
+.form-wrapper > .field-wrapper {
+    margin-top: 25px;
+    width: 80%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 30px;
+    text-align: center;
+}
+
+.field-wrapper > input[type=text],
+.field-wrapper > input[type=email],
+.field-wrapper > input[type=password] {
+    width: 90%;
+    height: 40px;
+    background-color: #050507 !important;
+    color: white;
+    padding-left: 10%;
+    
+}
+
+/* .field-wrapper > input:-internal-autofill-selected {
+    background-color: #050507 !important;
+} */
+
+.field-wrapper > button{
+    width: 80%;
+    max-width: 180px;
+    background: #050507;
+    color: white;
+    font-weight: bold;
+    border: 1px solid brown;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.field-wrapper > button:hover {
+    background: #292946;
+    cursor: pointer;
+}
+
+.field-wrapper > button:active {
+    background: #292946;
+}
+
+
